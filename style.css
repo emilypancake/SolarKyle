@@ -1,3 +1,32 @@
 body{
     background-color: green;
 }
+
+#panel-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    column-gap: 20px;
+    row-gap: 90px;
+    align-items: start;
+    margin-top: 20px;
+}
+
+#player{
+    width: 50px;
+}
+
+#enemy{
+    width: 50px;
+}
+
+.panel{
+    width: 50px;
+}
+
+#collected{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
