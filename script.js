@@ -69,9 +69,9 @@ function checkCollision() {
 
 			error.textContent = "touched " + touchedPanelId;
 			touchedPanelData.element.style.display = "none";
-			panelData.cooldown = true;
+			touchedPanelData.cooldown = true;
 			
-			if (panelData.redness < 50) {
+			if (touchedPanelData.redness < 50) {
 				collectedCount++;
 				collected.textContent = collectedCount;
 			}
